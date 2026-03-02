@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: stock-service
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn stock_service.wsgi"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: stock_service.settings
+      - key: PYTHON_VERSION
+        value: 3.11
