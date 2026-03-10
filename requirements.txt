@@ -29,7 +29,7 @@ djangorestframework==3.16.1
 djangorestframework_simplejwt==5.5.1
 dnspython==2.8.0
 drf-spectacular==0.29.0
-faiss-cpu==1.11.0
+faiss-cpu==1.13.2
 fastapi==0.129.0
 filelock==3.18.0
 frozenlist==1.7.0
